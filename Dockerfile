@@ -24,7 +24,7 @@ MAINTAINER Bruno BORDAS "bruno.bordas@gmx.com"
 ###############################
 
 RUN mkdir /etc/modprobe.d/
-RUN echo "blacklist dvd_usb_rtl23xxu" > /etc/modprobe.d/blacklist-dvb.conf # blacklist the regular DVB driver
+RUN echo "blacklist dvb_usb_rtl28xxu" > /etc/modprobe.d/blacklist-dvb.conf # blacklist the regular DVB driver
 
 #############################
 # Install Required Packages #
