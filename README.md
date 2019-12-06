@@ -11,8 +11,8 @@ Using: \
 
 # Usage:
 --> git clone the repo \
-->> build via 'docker build -t rtl-sdr .' \
->>> run via 'docker run -ti --device /dev/swradio0 rtl-sdr /bin/bash' \
+--> build via 'docker build -t rtl-sdr .' \
+--> run via 'docker run -ti --device /dev/swradio0 rtl-sdr /bin/bash' \
 where $swradio0 is the device \
 
 Enjoy
